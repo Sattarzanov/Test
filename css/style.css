@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background: url(http://imguol.com/2012/11/29/nem-so-de-sites-de-servicos-redes-sociais-e-noticias-vive-a-internet-tambem-existe-muita-coisa-inutil-na-rede-na-imagem-um-site-que-reproduz-o-bordao-do-personagem-nelson-de-os-simpsons-1354200659502_956x500.jpg) center / cover;
+}
+
+
+.parentbox{
+    width: 100%;
+    margin: auto;
+} 
+
+
+.inlinebox{
+    display: inline-flex;
+}
+
+
+.box p{
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    background-color: brown;
+    border: 5px solid black;
+    margin: 180px 500px;
+    transition: 1s;
+}
+
+.box p:hover{
+    width: 250px;
+    height: 300px;
+    background: url(https://s.fishki.net/upload/users/2018/06/14/544921/524431266dcccd18c44740984fc527af.jpg) center / cover;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 25px;
+    transform: scale(1.1);
+    margin: 180px 500px;
+    transition: 1s;
+}
